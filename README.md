@@ -18,7 +18,7 @@ Minimal CLI toolkit for installing and running a GenLayer full node.
 ## Installation
 
 ```bash
-bash toolkit_install_fixed_v20.sh genlayer-toolkit
+bash toolkit_install.sh genlayer-toolkit
 cd ~/genlayer-toolkit
 ./toolkit.sh
 ```
