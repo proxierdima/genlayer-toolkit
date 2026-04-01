@@ -104,7 +104,7 @@ docker compose --profile node restart
 docker compose --profile node logs -f
 ```
 
-### Precheck
+## Precheck
 
 **Run:**
 
@@ -114,19 +114,19 @@ Check configuration
 
 PRECHECK: OK
 
-### Errors:
+## Errors:
 
 - missing RPC / WSS
 - invalid consensus address
 - missing LLM key
 
-### Notes
+## Notes
 - Webdriver must run before node
 - Paths in .env are absolute
 - Only full node mode supported
 - Docker required
 
-### Structure
+## Structure
 - toolkit.sh — main CLI (all logic)
 - examples/ — templates
 - docs/ — minimal docs
